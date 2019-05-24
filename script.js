@@ -1,3 +1,8 @@
+$(function() {
+    $(".name").slideDown("slow", function() {
+    });
+});
+
 function renderPages() {
     $('a').on('click', function(event) {
         event.preventDefault();
@@ -30,7 +35,7 @@ function handleProjects() {
             <a href="index.html"><i class="fas fa-times gray"></i></a>
             <h1 class="title gray">Projects</h1>
             <h2 class="gray">Doctor Who Quiz App</h2>
-            <img class="project" src="quizapp.png">
+            <img class="project" alt="Quiz Screenshot" src="quizapp.png">
             <p class="gray">Take this quiz to test your knowledge of all things Doctor Who</p>
             <p class="gray">Written in HTML, CSS, Javascript, and jQuery</p>
             <p class="gray"><a class="link" href="https://wdbhook.github.io/QuizApp/">Link to Live App</a></p>

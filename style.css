@@ -2,6 +2,15 @@ body {
     font-family: 'Montserrat', sans-serif;
     background-color: #262626;
   }
+
+  .horizontalLine {
+    border-top: 2px solid #f5f5f5;
+    height: 1px;
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
   
   .name {
     text-align: center;
@@ -9,8 +18,6 @@ body {
     margin-right: 50px;
     margin-top: 0;
     margin-bottom: 0;
-    border-top: 2px solid #f5f5f5;
-    border-bottom: 2px solid #f5f5f5;
     padding-top: 20px;
     padding-bottom: 20px;
     font-family: 'Karla', sans-serif;
@@ -30,7 +37,7 @@ body {
   
   a.nav {
     text-decoration: none;
-    font-size: 16px;
+    font-size: 1em;
   }
   
   a.link {
@@ -50,7 +57,6 @@ body {
   }
   
   i {
-    display: float;
     float: right;
   }
   
@@ -63,16 +69,16 @@ body {
   }
 
   p {
-    font-size: 20px;
+    font-size: 1.25em;
     line-height: 150%;
   }
 
   h1 {
-    font-size: 48px;
+    font-size: 3em;
   }
 
   h2 {
-    font-size: 26px;
+    font-size: 1.625em;
     line-height: 120%;
   }
 
@@ -93,15 +99,23 @@ body {
 
     li {
       margin-left: -2px;
-      margin-rigth: -2px;
+      margin-right: -2px;
     }
 
     .me {
       width: 100px;
     }
 
-    .line {
+    .verticalLine {
       height: 100px;
+      border-right: 2px solid #F5F5F5;
+      width: 50%;
+    }
+
+    .box {
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
     }
   }
 
@@ -131,7 +145,10 @@ body {
     border: 2px solid #F5F5F5;
   }
 
-  .line {
-    border-right: 2px solid #F5F5F5;
-    width: 50%;
+  li:hover {
+    background-color: #3F3F3F;
+  }
+
+  .hidden {
+    display: none;
   }
