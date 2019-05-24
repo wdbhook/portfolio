@@ -1,6 +1,5 @@
 $(function() {
-    $(".name").slideDown("slow", function() {
-    });
+    $(".name").slideDown("slow");
 });
 
 function renderPages() {

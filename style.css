@@ -132,8 +132,10 @@ body {
       width: 75px;
     }
 
-    .line {
+    .verticalLine {
       height: 50px;
+      border-right: 2px solid #F5F5F5;
+      width: 50%;
     }
   }
 
@@ -147,8 +149,4 @@ body {
 
   li:hover {
     background-color: #3F3F3F;
-  }
-
-  .hidden {
-    display: none;
   }
