@@ -37,8 +37,8 @@ function handleProjects() {
             <img class="project" alt="Quiz Screenshot" src="quizapp.png">
             <p class="gray">Take this quiz to test your knowledge of all things Doctor Who</p>
             <p class="gray">Written in HTML, CSS, Javascript, and jQuery</p>
-            <p class="gray"><a class="link" href="https://wdbhook.github.io/QuizApp/">Link to Live App</a></p>
-            <p class="gray"><a class="link" href="https://github.com/wdbhook/QuizApp.git">Link to Github Repository</a></p>
+            <p class="gray"><a class="link" target="_blank" href="https://wdbhook.github.io/QuizApp/">Link to Live App</a></p>
+            <p class="gray"><a class="link" target="_blank" href="https://github.com/wdbhook/QuizApp.git">Link to Github Repository</a></p>
         </section>`
     );
 }
@@ -48,9 +48,9 @@ function handleContact() {
         `<section class="box">
             <a href="index.html"><i class="fas fa-times gray"></i></a>
             <h1 class="title gray">Contact</h1>
-            <p class="gray">Email: <a class="link" href="mailto:whitneyballardhook@gmail.com">whitneyballardhook@gmail.com</a></p>
-            <p class="gray">LinkedIn: <a class="link" href="http://www.linkedin.com/in/whitneyhook">Whitney Hook</a></p>
-            <p class="gray">GitHub: <a class="link" href="http://www.github.com/wdbhook">wdbhook</a></p>
+            <p class="gray">Email: <a class="link" target="_blank" href="mailto:whitneyballardhook@gmail.com">whitneyballardhook@gmail.com</a></p>
+            <p class="gray">LinkedIn: <a class="link" target="_blank" href="http://www.linkedin.com/in/whitneyhook">Whitney Hook</a></p>
+            <p class="gray">GitHub: <a class="link" target="_blank" href="http://www.github.com/wdbhook">wdbhook</a></p>
         </section>`
         );
 }
