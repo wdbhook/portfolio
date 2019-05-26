@@ -23,7 +23,7 @@ function handleAboutMe() {
             <a href="index.html"><i class="fas fa-times gray"></i></a>
             <h1 class="title gray">About Me</h1>
             <h2 class="gray">Hello! I'm Whitney.  I'm a web developer with a passion for user experience, accessibility, and responsive design.</h2>
-            <p class="gray">I am a JavaScript developer based in the Central Florida area.  My interests include all things technology and space, science fiction and fantasy, sewing and crafting.  I enjoy learning new skills, building things, solving problems and puzzles.  I'm a life-long learner, and I am constantly working to add new skills to my repertoire.</p>
+            <p class="gray">I am a JavaScript developer based in the Central Florida area.  My interests include all things technology and space, science fiction and fantasy, sewing and crafting.  I enjoy learning new skills, building things, solving problems and puzzles.  I'm a life-long learner, and I am constantly working to add new skills to my repertoire. I enjoy working in collaborative team enviornments where people with different skillsets can come together to tackle big projects.</p>
         </section>`
     );
 }
